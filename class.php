@@ -48,8 +48,8 @@ class ajaxGetNews extends CBitrixComponent implements Controllerable
         ];
         $arFilter = [
             "IBLOCK_ID" => $IBLOCK_ID,
-            '>DATE_ACTIVE_FROM' => '01.01.2010',
-            '<DATE_ACTIVE_FROM' => '31.12.2010',
+            '>DATE_ACTIVE_FROM' => '01.01.2015',
+            '<DATE_ACTIVE_FROM' => '31.12.2015',
             "ACTIVE" => "Y"
         ];
         $properties = CIBlockElement::GetList(
